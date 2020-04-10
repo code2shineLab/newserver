@@ -1,0 +1,26 @@
+{
+  "name": "logincredential-mongo",
+  "version": "1.0.0",
+  "description": "Signup and login using node and mongoDB",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.16"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0"
+  },
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "author": "Sourendra Kumar Sethy",
+  "license": "MIT"
+}
